@@ -1,0 +1,41 @@
+.Boton6 {
+  text-decoration: none;
+  padding: 3px 0px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: rgba(54, 56, 50, 0.808);
+  border: 2px solid white;
+  display: inline block;
+
+  text-align: center;
+  position: relative;
+  top: 100px;
+  right: 13.5%;
+}
+.Boton6:hover{
+  text-decoration: none;
+  color: #ffffff;
+  background: #06e924
+  }
+
+.heder1 {
+  height: 300px;
+  position: relative;
+
+}
+
+.form {
+
+
+  position: relative;
+  left: 18%;
+  top: 20%;
+
+}
+
+.titulo_2 {
+  position: relative;
+  right: 5%;
+  bottom: 10%;
+}

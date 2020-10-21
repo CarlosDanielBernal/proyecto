@@ -1,0 +1,62 @@
+.Boton45{
+ 
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: rgba(38, 39, 36, 0.808);
+    margin-top: 100px;
+    margin-bottom: 80px; 
+  position: relative;
+  top:70px;
+  left:250px ;
+    
+}
+.Boton45:hover{
+  text-decoration: none;
+  color: #ffffff;
+  background: #06e924
+  }
+
+
+.div48{
+ background-color: #ffffff;
+  text-align: center;
+   border-style: solid;
+   border-width: 4px; 
+  width:600px ;
+  height: 300px;
+position: relative;
+top: 50px;
+left: 50px;
+}
+
+.img46{
+  width:100px ;
+position: relative;
+  left: 10px;
+top: 60px;
+}
+
+.text79{
+position: relative;
+top: 50px;
+}
+header {
+  width: 1500px;
+ max-width:1500px ;
+  background: #06e924;
+}
+
+.container {
+  width: 1000px;
+
+  overflow: hidden;
+  display: inline-block;
+}
+
+.Enviar{
+  width: 1500px;
+  height: 1000PX;
+  }

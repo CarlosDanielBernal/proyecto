@@ -1,0 +1,96 @@
+.header {
+  width: 1000px;
+  height: 1000px;
+  background: #06e924;
+}
+
+.container {
+  width: 1700px;
+  height: 20vh;
+}
+
+ 
+.nav1{
+  font-size:50px;
+  position: relative;
+  left: 20px;
+bottom: 80PX;
+}
+.text14:hover{
+  text-decoration: none;
+background-color: #06e924;
+color: white
+}
+.sub{
+width:50px;
+}
+
+header nav a {
+  display: inline-block;
+  color: black;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 25px;
+  font-weight: bold;
+}
+header nav a:hover {
+  text-decoration: none;
+  background: green ;
+  border-radius: 50px;
+  color: #ffffff;
+}
+
+
+
+.texto32 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40;
+  color: rgb(134, 130, 130);
+  position:relative;
+  top:0px;
+  bottom:50px;
+left: 100px;
+  
+  
+}
+.Boton31 {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: rgba(134, 226, 12, 0.808);
+  margin-top: 100px;
+  margin-bottom: 40px;
+  border: 2px solid white;
+
+ position: relative;
+left: 200px;
+top: 100px ;
+}
+.Boton31:hover{
+  text-decoration: none;
+background-color: #06e924;
+color: white;
+
+}
+
+.img1 {
+ position: relative;
+left:1000px;
+top: 50px;
+display:inline-block ;
+width:500px ;
+height:500px;}
+
+.home {
+  width:1500px;
+height:1000px;
+  
+
+
+}
+.text14{
+position: relative;
+left: 400px;
+}
