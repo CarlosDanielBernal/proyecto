@@ -15,21 +15,27 @@ function Coordinador () {
           </div>
           <nav>
             <a></a>
-            <a className="text1">Coordinador</a>
+            <a className="text12">Coordinador</a>
           </nav>
         </div>
       </header>
       
       <div className="cuerpo">
-      
-         <button href="#" className="Boton27"> <img className="campana" src={Campana4}/>  Notificación  </button>
+      <a    href="/notificacion">
+         <button  className="Boton27" href="/notificacion"> <img className="campana" src={Campana4}/>  Notificación  </button>
+         </a>
          <br/>  <br/>
+         <a href="/subir">
           <button href="#" className="Boton27" >  Subir listas  </button>
+         </a> 
           <br/>
+          <a href="/faltas">
         <button href="#" className="Boton25" >  Faltas acomuladas  </button>           
+        </a>        
         <br/>
+        <a href="/">
 <button href="#" className="Boton26" > <img className="campana" src={Puerta}/> Salir </button>
-      
+      </a>
         </div>
      
      </div>

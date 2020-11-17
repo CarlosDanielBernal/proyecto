@@ -1,14 +1,18 @@
 import React from "react";
 import "../css/styles_p8.css";
 import Log from "../images/flecha2.png";
+import Fondo from  "../images/img.png"
+
+
+
 function  Listas1(){
   return (
-
-<div className ="tabla"> 
-  <table border="1" width="950px">
+<div className="divsito1"  style={{background: `url(${Fondo})`}}>
+<div className ="tabla1"> 
+  <table border="1" >
 <tr>
   <th colSpan="15" className="encabezado1">Institucion Educativa 
-   Santa Elena   Grado:10°2   periodo:2    Año:2020    </th>
+   Santa Elena /  Grado:10°2 /  periodo:2  /  Año:2020    </th>
    </tr>
 
    <tr>
@@ -422,9 +426,10 @@ function  Listas1(){
   
 
 </table>
-
+<a href="/coordinador">
 <button className="Botonimg">  <img className="img2" src={Log} /></button>
-
+</a>
+</div>
 </div>
   ) }
 

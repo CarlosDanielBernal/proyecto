@@ -1,3 +1,6 @@
+
+@media (max-width: 1500px) {
+
 th,
 td,
 table {
@@ -13,7 +16,7 @@ table {
     background:#06e924 ;
   }
   .container {
-   
+   width: 1500px;
     
     
   }
@@ -64,15 +67,15 @@ table {
 
 .div2 {
   position: relative;
-  left: 20vh;
+  left: 400px;
   top: 5vh;
 }
 
 .boton {
   background-color:#06e924;
   position: relative;
-  left: 80vh;
-  bottom: 16vh;
+  left: 900px;
+  bottom: 10vh;
 }
 .flecha {
   width: 50px;
@@ -96,4 +99,22 @@ bottom: 80px;
 .div50{
   width:1500px ;
   height: 1000px;
+}}
+@media (max-width: 720px) {
+header{
+  width: 720px;
+}
+.div50{
+width: 720px;
+height: 810px;
+}
+.div2{
+  position: relative;
+left: 5px;
+}
+.boton{
+  position: relative;
+  left:250px ;
+}
+
 }

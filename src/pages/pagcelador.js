@@ -22,13 +22,17 @@ function Celador() {
       </header>
       
         <div className="cuerpo">
-          <button className="Boton23" href=""> 
+          < a href="celador_g">
+          <button className="Boton23" href="/celador_g"> 
           <img className="campana" src={Usuario}/> Grupos y  grados
           </button>
+          </a>
           <div className="cuerpo">
-          <button className="Boton24" href="">
+          <a href="/">
+          <button className="Boton24" >
           <img className="campana" src={Puerta}/>   Salida 
           </button>
+          </a>
         </div>
         
         </div>

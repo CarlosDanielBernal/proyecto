@@ -1,3 +1,5 @@
+@media (max-width: 1500px) {
+
 .Boton49{
  
   text-decoration: none;
@@ -28,7 +30,7 @@ left:10px ;}
   height: 300px;
 position: relative;
 top: 50px;
-left: 50px;
+left: 400px;
 }
 
 .img46{
@@ -53,4 +55,32 @@ header {
 
   overflow: hidden;
   display: inline-block;
+}
+
+.divsito8{
+width: 1380px;
+height: 999px;
+
+}
+}
+@media (max-width: 720px) {
+header{
+  width: 720px;
+ 
+}
+.divsito8{
+   width: 720px;
+   height: 810px; 
+  }
+.div49{
+  width: 300px;
+  height: 400px;
+  position: relative;
+  left: 35px;
+  top: 25px;
+  
+}
+
+
+
 }

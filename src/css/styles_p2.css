@@ -1,14 +1,16 @@
+
+@media (max-width: 1500px) {
 .Titulo {
   text-align: center;
   position: relative;
 
   bottom: 5px;
-  left: 64px;
+  left: 1px;
   top:30px;
   
   }.Formulario {
 
-    width: 10vh;
+    width: 40vh;
     height: 100vh;
     margin: auto;
     
@@ -20,11 +22,11 @@
       width: 5vh ;
       height: 80vh;
     color:black;
-    top: 60px;
+    top: 40px;
     left: 25;
     position: relative;
-    right:60% ;
-    left: 21%;
+    
+    left: 1%;
     display: inline-block;
     
     }
@@ -39,12 +41,11 @@
       background-color: rgba(54, 56, 50, 0.808);
       border: 2px solid white;
      display: inline block;
-    
-    margin: 45%;
+  
     text-align: center;
     position: relative;
-    bottom:160px ;
-    left:74px ;
+    bottom:180px ;
+    left:585px ;
     
     }
 .Boton2:hover{
@@ -57,4 +58,23 @@
     
     .campoentrada {
       font-size: 23px
+    }
+  }
+    @media (max-width: 720px) {
+
+
+      .contenedor{
+      right: 1000px;
+      }
+      .Boton2{
+      left: 100px;
+      
+      }
+     .Titulo{
+       
+     }
+
+
+
+      
     }

@@ -1,45 +1,48 @@
 import React from "react";
 import "../css/p5.css";
 import Logo from "../images/descarga.png";
-import Flecha from "../images/flecha2.png"
+import Flecha from "../images/flecha2.png";
+import Fondo from "../images/img.png";
+import Carpeta from "../images/carpeta6.png";
 
 function Subir() {
   return (
     <>
-      <header>
-        <div className="container">
-          <div>
-            <img className="img" src={Logo} />
+      <div className="divsito4" style={{ background: `url(${Fondo})` }}>
+        <header>
+          <div className="container">
+            <div>
+              <img className="img" src={Logo} />
+            </div>
+            <nav></nav>
           </div>
-          <nav>
-            
-          </nav>
-        </div>
-      </header>
-      <body>
-        <div className="cuerpo">
-          <a className="Boton" href="">
-            Subir_listas
-          </a>
-          <div className="cuerpo">
-          <a className="Boton" href="">
-          ver_y_editar_listas
-          </a>
-          <div>
-            <img className="img_f" href="#" src={Flecha} />
-          </div>
-        <div class="fondo">
-          
-        </div>
+        </header>
 
+        <div className="cuerpo">
+          <button href="#" className="Boton27">
+            {" "}
+            <img className="campana" src={Carpeta} /> Subir listas{" "}
+          </button>
+
+          <div className="cuerpo">
+            <a href="/editarlistas">
+              <button href="#" className="Boton27">
+                {" "}
+                ver y editar listas{" "}
+              </button>
+            </a>
+            <a href="/coordinador">
+              <button className="Boton4564">
+                {" "}
+                <img className="img2" src={Flecha} />
+              </button>
+            </a>
+            <div class="fondo"></div>
+          </div>
         </div>
-        
-        </div>
-      </body>
+      </div>
     </>
   );
 }
 
 export default Subir;
-
-

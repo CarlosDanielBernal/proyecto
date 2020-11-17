@@ -1,3 +1,6 @@
+
+@media (max-width: 1500px) {
+
 header {
   width: 1500px;
  max-width:1500px ;
@@ -20,16 +23,16 @@ height: 1000px;
   height: 2%;
 }
 
-.text1 {
+.text12 {
   
     text-decoration: none;
     color: white;
     font-size: 40px;
     position: relative;
     bottom: 80px;
-       right:200px ;
+    left: 500px;
 }
-.text1:hover{
+.text12:hover{
   text-decoration: none;
   color: #ffffff;
   background: #06e924
@@ -156,35 +159,58 @@ height:100px ;
   
 
 }
+}
+@media (max-width: 720px) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 736vh) {
-  header{
-    max-width: 1500;
-  }
-  .text {
-    text-decoration: none;
-    color: white;
-    font-size: 40px;
-    position: relative;
-    bottom: 80px;
-    left: 80vh;
+  header {
+    width: 720px;
+   
   }
   
+  .container {
+    width: 650px;
+  
+    overflow: hidden;
+    display: inline-block;
+  }
 
+  .div12{
+    width:720px ;
+    height: 810px;
+    }
+  .Boton27 {
+  left: 45px;
+  }
+  .Boton26 {
+ left: 45px;
+
+  }
+  .Boton25 {
+left:45px;
+  }
+.text12{
+  position: relative;
+  left: 120px;
 }
+
+
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

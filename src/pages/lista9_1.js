@@ -2,10 +2,12 @@ import React from "react";
 import "../css/p10.css";
 import Logo from "../images/descarga.png";
 import Flecha from "../images/flecha2.png";
+import Fondo from "../images/img.png";
 
 function  Nueve_1() {
 return(
 <>
+<div className="div50" style={{ background: `url(${Fondo})` }}>
 <header>
         <div className="container">
           <div>
@@ -18,7 +20,7 @@ return(
           </nav>
         </div>
       </header>
-      <body>
+      
       
       <div id="div1" align="center" className="div2">
       <table border="1">
@@ -96,8 +98,8 @@ return(
 
 
 
-      </body>
-
+      
+ </div>
 
 
 </>

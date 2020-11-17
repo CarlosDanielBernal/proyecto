@@ -1,25 +1,23 @@
+
+@media (max-width: 1500px) {
+
 header {
-  width: 110vh;
-  height: auto;
+  width: 1500px;
+  height: 150px;
   overflow: hidden;
- max-width:110vh ;
+ max-width:1500px ;
   background: #06e924;
 }
 .container {
-  width: 100vh;
-  overflow: hidden;
-  display: inline-block;
+  width: 1000px;
+  height: 150px;
 }
 
-header nav {
-  float: right;
-  line-height: 10px;
+.divsito4{
+  width: 1500px;
+  height: 999px;
 }
-header nav a {
-  display: inline-block;
-  color: black;
-  padding: 5px 20px;
-}
+
 
 .img {
   width: 100px;
@@ -86,17 +84,31 @@ top:15vh;
 }
 
 
-@media screen and (max-width: 736vh) {
-  header {
-    width: 120vh;
-
-    text-align: left;
-    line-height: 60px;
-  }
-.Boton .BotonTRES{
-  margin: 80%;
-position: relative;
-right:12vh;
-top:10vh ;
+.Boton4564{
+ 
+  width: 70px;
+  height: 70px;
+ position: relative;
+   top:170px ;
+   left: 360px ;
 }
+}
+
+@media (max-width: 720px) {
+header{width: 720px}
+
+  
+.divsito4{
+  width: 720px;
+  height: 810px;
+}
+.Boton4564{
+ 
+ position: relative;
+
+  left: -140px;
+}
+
+
+
 }

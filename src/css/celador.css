@@ -1,18 +1,21 @@
+
+@media (max-width: 1500px) {
+
 header {
-  width: 10000px;
+  width: 1350px;
  max-width:1500px ;
   background: #06e924;
 }
 
 .container {
-  width: 1500px;
+  width: 1350px;
 
   overflow: hidden;
   display: inline-block;
 }
 
 .div12{
-width:1500px ;
+width:1350px ;
 height: 1000px;
 }
 .img {
@@ -38,7 +41,7 @@ height: 1000px;
     background-color:rgb(87, 81, 81);;
 
   position: relative;
-  top:50px;
+  top:-40px;
   left:90vh ;
   width: 300px;
   height:70px ;
@@ -53,8 +56,7 @@ height: 1000px;
 position: relative;
 
 left:90vh ;
-top:1px;
-bottom:10px ;
+top:-170px;
 width: 300px; 
 height:70px ;
     
@@ -98,19 +100,24 @@ height:70px ;
   position: relative;
   top: 40px;
 }
+}
+@media (max-width: 720px) {
+header{
+  width: 720px;
+}
 
-@media screen and (max-width: 736vh) {
-  header{
-    max-width: 1500;
+.div12{
+width: 720px;
+height: 800px;
+}
+.Boton23{
+position: relative;
+left: 30px;
+}
+.Boton24{
+  position: relative;
+  left: 30px;
   }
-  .text {
-    text-decoration: none;
-    color: white;
-    font-size: 40px;
-    position: relative;
-    bottom: 80px;
-    left: 80vh;
-  }
-  
+
 
 }
